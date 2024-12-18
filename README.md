@@ -1,4 +1,4 @@
-# control_dehumidificador
+# control_deshumidificador
 Circuit i software Esphom epr controlar el funcionament d'un deshumidificador
 
 Problema:
