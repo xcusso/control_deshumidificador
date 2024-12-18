@@ -1,3 +1,5 @@
+# TODO
+# Afegir sensor temperatura/humitat
 esphome:
   name: deshumidificador
   friendly_name: Deshumidificador
