@@ -1,0 +1,59 @@
+esphome:
+  name: deshumidificador
+  friendly_name: Deshumidificador
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "Ev7XDK9s2TC1nG5WkT65JO2oDxwboQfMLD1HG7OYcF8="
+
+ota:
+  - platform: esphome
+    password: "082293aaa5691621998c8e4b17e5e4e9"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Deshumidificador"
+    password: "orWtUpXx6FbG"
+
+captive_portal:
+
+binary_sensor:
+  - platform: gpio
+    pin: 
+      number: GPIO13
+      mode:
+        input: True
+        pullup: True
+    name: "Diposit ple"
+    filters:
+      - invert: 
+          
+    on_press:
+      then:
+        - switch.turn_on: bomba
+        - delay: 30s
+        - switch.turn_off: bomba
+
+switch:
+  - platform: gpio
+    pin: GPIO16
+    id: deshumidificador
+    name: "Deshumidificador"
+
+  - platform: gpio
+    pin: GPIO17
+    id: bomba
+    name: "Bomba"
