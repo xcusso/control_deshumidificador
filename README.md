@@ -15,4 +15,5 @@ Placa ESP32 alimentada a 220V amb dos relés (1- per accionar el propi deshumidi
 
 Material: 
 ESP32: https://es.aliexpress.com/item/1005007481369265.html?spm=a2g0o.order_list.order_list_main.15.1ba0194dZFZamX&gatewayAdapt=glo2esp
+https://github.com/xcusso/control_dehumidificador
 
