@@ -1,1 +1,1 @@
-
+Carpeta per a imatges
