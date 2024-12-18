@@ -21,9 +21,10 @@ Sensor temp/humitat: https://es.aliexpress.com/item/1005005337815331.html?spm=a2
 Bomba (opcional): https://es.aliexpress.com/item/1005002357671420.html?spm=a2g0o.order_list.order_list_main.44.1ba0194dZFZamX&gatewayAdapt=glo2esp
 
 Connexionat:
-Conectarem alimentació 5V i massa al sensor digital i la sortida al GPIO XX en mode PULLUP. 
+Conectarem alimentació 5V i massa al sensor digital i la sortida al GPIO 13 en mode PULLUP. 
 Connectarem el sensor temp i humitat a VCC i masa, SDA GPIO 21 i SCL GPIO 22
 El sensor REED el posarem an paralel amb el relé 220V d'alimentació de la bomba. D'aquesta manera, si per algun motiu es queda penjat el ESP32 quan arribi al nivell del sensor s'activarà la bomba.
+Els reles estan conectats als GPIO16 i GPIO17
 Conectarem el RELE 1 per alimentar el deshumidificador i el RELE 2 per alimentar la bomba.
 
 
