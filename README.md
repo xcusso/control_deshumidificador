@@ -11,7 +11,7 @@ Crear un dispositiu Esphome (per integrar en ecosistema Home Assistant) que cont
 
 Material:
 Placa ESP32 alimentada a 220V amb dos relés (1- per accionar el propi deshumidificador 2- per accionar la bomba), un sensor de temperatura/humitat, un sensor de nivell*.
-(*Per evitar fallos montarem dos sensors: un basat en un iman i un sensor REED i un altre de digital sense contacte).
+(*Per evitar fallos montarem dos sensors: un basat en un iman i un sensor REED  que funcionarà a 220V i un altre de digital sense contacte).
 
 ESP32: https://es.aliexpress.com/item/1005007481369265.html?spm=a2g0o.order_list.order_list_main.15.1ba0194dZFZamX&gatewayAdapt=glo2esp
 Sensor nivell REED: https://es.aliexpress.com/item/1005005648584783.html?spm=a2g0o.order_list.order_list_main.32.1ba0194dZFZamX&gatewayAdapt=glo2esp
