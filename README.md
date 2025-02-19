@@ -2,7 +2,7 @@
 Circuit i software Esphom epr controlar el funcionament d'un deshumidificador
 
 Problema:
-En el soterrani d'una casa s'avumula molta humitat relativa que es filtra de les parets i del terra. Aixó causa problemes d'olors, floridures i insalubritat.
+En el soterrani d'una casa s'acumula molta humitat relativa que es filtra de les parets i del terra. Aixó causa problemes d'olors, floridures i insalubritat.
 L'us d'un deshumidificador soluciona parcialment el problema evitant que la humitat relativa es mantigui alta amb el temps. El problema és que periodicament cal buidar el diposit d'aigua extreta del ambient i no sempre hi ha algú per fer-ho. 
 Una possible solució seria conectar la sortida del diposit a un desaigua però al ser un soterrani el nivell de les canonades està per damunt del deshumidificador i cal utilitzar una bomba.
 
