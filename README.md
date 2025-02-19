@@ -23,9 +23,14 @@ Bomba (opcional): https://es.aliexpress.com/item/1005002357671420.html?spm=a2g0o
 Connexionat:
 Conectarem alimentació 5V i massa al sensor digital i la sortida al GPIO 13 en mode PULLUP. 
 Connectarem el sensor temp i humitat a VCC i masa, SDA GPIO 21 i SCL GPIO 22
-El sensor REED el posarem an paralel amb el relé 220V d'alimentació de la bomba. D'aquesta manera, si per algun motiu es queda penjat el ESP32 quan arribi al nivell del sensor s'activarà la bomba.
+NO S'HA FET: El sensor REED el posarem an paralel amb el relé 220V d'alimentació de la bomba. D'aquesta manera, si per algun motiu es queda penjat el ESP32 quan arribi al nivell del sensor s'activarà la bomba.
 Els reles estan conectats als GPIO16 i GPIO17
 Conectarem el RELE 1 per alimentar el deshumidificador i el RELE 2 per alimentar la bomba.
+
+Notes:
+Al comprar els sensor de temperatura i humitat BME280, ens varen enviar un BMP280 (que tant sols llegeix temperatura i pressió). Queda pendent substituir el sensor per el correcte i modificar el codi.
+
+
 
 
 
